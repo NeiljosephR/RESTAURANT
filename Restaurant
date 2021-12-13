@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+ 
+    <title>
+        ALFREDO'S RESTAURANT
+    </title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+<style>
+    body{
+        background-color: tomato;
+        
+    }
+     
+</style>    
+<body>
+
+    <nav class="navbar navbar-inverse " style="background-color:#B80F0A">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><em>ALFREDO'S RESTAURANT</em></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#"><em>Home</em> </a></li>
+          <li><a href="#"><em>about us</em></a></li>
+          <li><a href="#"><em>contact us</em> </a></li>
+          <li><a href="#"><em>galleries</em></a></li>
+          <li><a href="#"><em>our services</em></a></li>
+        </ul>
+        <form class="navbar-form navbar-left" action="/action_page.php">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+          </div>
+          <button type="submit" class="btn btn-default">submit</button>
+        </form>
+      </div>
+    </nav>
+<body>
+<center><h1 style="color:gold;"><b><em>LOOKING FOR BIRIYANI'S?</em></b> </h1>  </center> 
+<div class="container">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:tomato">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <center><img src="https://i.pinimg.com/originals/f3/20/12/f32012a191888062a932da4a5acfd2b1.jpg " alt="Los Angeles" style=" width:50%;height:570px; "></center>
+        <div class="carousel-caption">
+        
+          <h1 style="color:goldenrod;">CHICKEN BIRIYANI</h1>
+        </div>
+      </div>
+
+      <div class="item">
+        <center><img src="https://i2.wp.com/www.happyandharried.com/wp-content/uploads/2014/10/One-Pot-Mutton-Biryani-Tamil-Nadu-Style.jpg  "   style="width: 50%;height:570px;"></center>
+        <div class="carousel-caption">
+          
+          <h1 style="color:goldenrod;">MUTTON BIRIYANI</h1>
+        </div>
+      </div>
+    
+      <div class="item">
+        <center><img src="https://qph.fs.quoracdn.net/main-qimg-5ee8a675800e0a2e307ee5f62e1a11ac "   style="width:50%;height:570px; "></center>
+        <div class="carousel-caption">
+           
+          <h1 style="color:yellow;" >FISH BIRIYANI</h1>
+        </div>
+      </div>
+      <div class="item">
+        <center><img src="https://www.thedeliciouscrescent.com/wp-content/uploads/2016/06/Easy-Hyderabadi-Chicken-Biryani-4.jpg  "   style="width:50%;height:570px; "></center>
+        <div class="carousel-caption">
+           
+          <h1 style="color:yellow;" >HYDERABADI BIRIYANI</h1>
+        </div>
+      </div>
+   
+    <div class="item">
+      <center><img src="https://th.bing.com/th/id/OIP.8EhwbdoiZ5roFb8vn-FVdwHaIw?pid=ImgDet&rs=1  "   style="width:50%;height:570px; "></center>
+      <div class="carousel-caption">
+         
+        <h1 style="color:yellow;" >MUGHAL BIRIYANI</h1>
+      </div>
+    </div>
+  </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<br>
+<center><h1 style="color:yellow;"><em><b>OR NOODLES</b></em> </h1> 
+<style>
+ 
+</style>  
+<body id="one">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.4O_-C4rMLpqDFjFEqcKMqwHaHa?pid=ImgDet&rs=1 " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>CHICKEN NOODLES</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://bucketbiryani.com/wp-content/uploads/2020/02/imutton_noodles.jpg  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>MUTTON NOODLES </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://th.bing.com/th/id/OIP.fsJNt9F-koiq0tVsW3NE3gHaLH?pid=ImgDet&rs=1   "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>EGG NOODLES</center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br> 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://www.munatycooking.com/wp-content/uploads/2017/12/chicken-schezwan-noodles-2.jpg " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>CHICKEN SCHEZWAN NOODLES</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://www.milaghurestaurant.com/admin/postimages/a5275063ca97c26fc95106062b47676f.jpg  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>MUTTON SCHEZWAN NOODLES </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://th.bing.com/th/id/R.95763b6376b5627698163c83537ab714?rik=c42wCNgXQ5kcFA&riu=http%3a%2f%2fsloopy.in%2fwp-content%2fuploads%2f2020%2f06%2fsloopy_noodles_3-840x720.png&ehk=8mcHo5ZkgeP3NX78csjnqX394UcYBq5mmoUloZ3GXZg%3d&risl=&pid=ImgRaw&r=0 "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>VEG NOODLES</center></h3></a>
+      <br>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://i.redd.it/rksppmtli6t01.jpg  " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>SPICY BEEF NOODLES</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://th.bing.com/th/id/OIP.2iASjBHHcfWJizSVKT8aMAHaLH?pid=ImgDet&rs=1  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> SPICY KOREAN NOODLES </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.5Ty8uoMu68q91wBjpDTzHgHaHa?pid=ImgDet&rs=1 "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>SWEET POTATO NOODLES</center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.qgAp0A7hCi40ocG-EveQxwHaEc?w=295&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7   " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>PASTA</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/R.ca80a736be3c62ad4405a2bb75cc48cb?rik=Ld0CcYGFgmJd4Q&riu=http%3a%2f%2fwww.pepperdelight.com%2fwp-content%2fuploads%2f2016%2f01%2fChickenPasta1.jpg&ehk=nrKlVV%2b%2fO6YZ4wurl13roAm6qhWf8Jc5Om%2bow5HCDBY%3d&risl=&pid=ImgRaw&r=0  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> CHICKEN PASTA</center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://thecozycook.com/wp-content/uploads/2020/06/Buffalo-Chicken-Pasta-6.jpg "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>BUFFALLO CHICKEN PASTA</center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<center><h1 style="color:yellow;"><b><em>SEA FOOD</em></b></h1></center>
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://recipes.timesofindia.com/thumb/61996209.cms?imgsize=538209&width=800&height=800 "   style="width:100%;height:650px ;">
+        <div class="carousel-caption">
+          <h3>FISH FRY</h3>
+           
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://th.bing.com/th/id/R.15495a5fd5a4d35fdfdc7aedda2ce14d?rik=EUybdrDcBpzarw&riu=http%3a%2f%2fhotelradhakrishnanashik.com%2fimages%2fprawns-koliwada.jpg&ehk=TtDilYEnaMZti5lSwD%2brjfj3qYH4zzYQoQJGxyct714%3d&risl=&pid=ImgRaw&r=0 "   style="width:100%;height: 650px;">
+        <div class="carousel-caption">
+          <h3> PRAWN FRY</h3>
+           
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://m.recipes.timesofindia.com/photo/60425532.cms " alt="New York" style="width:100%;height:650px;">
+        <div class="carousel-caption">
+          <h3>CHICKEN-65</h3>
+          
+        </div>
+      </div>
+     
+      <div class="item">
+        <img src="https://th.bing.com/th/id/R.a09a6962740777a4959a9ee77a49b0dc?rik=tVDk5j121VKjTg&riu=http%3a%2f%2fstatic.independent.co.uk%2fs3fs-public%2fstyles%2fstory_large%2fpublic%2fthumbnails%2fimage%2f2015%2f09%2f12%2f21%2f29-fish-fingers-rex.jpg&ehk=cdgLt%2bGAy%2bKVhYW7DccP6DP7cDYP6uP74sei69D%2ftlg%3d&risl=&pid=ImgRaw&r=0 " alt="New York" style="width:100%;height:650px;">
+        <div class="carousel-caption">
+          <h3>FINGER FISH</h3>
+          
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://algomamarketplace.com/wp-content/uploads/2020/12/Chilli-Fish.jpg " alt="New York" style="width:100%;height:650px;">
+        <div class="carousel-caption">
+          <h3>CHILLI FISH</h3>
+          
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://1.bp.blogspot.com/-2bK6NcVlz_0/TiB5FkakgRI/AAAAAAAAAJs/vStQBv1OMZs/s1600/DSC00497.JPG " alt="New York" style="width:100%;height:650px;">
+        <div class="carousel-caption">
+          <h3>GOLDEN FRIED PRAWNS</h3>
+          
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://i1.wp.com/theindianclaypot.com/wp-content/uploads/2017/08/PANEER-65-SMALLER.jpg?fit=1620%2C1080 " alt="New York" style="width:100%;height:650px;">
+        <div class="carousel-caption">
+          <h3>PANEER 65</h3>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<center><h1 style="color:yellow;"><b><em>BARBEQUES</em></b></h1></center>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.Jh40M-2oPZYZuYEldeT1TQHaHa?pid=ImgDet&rs=1 " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>CAROLINA STYLE PORK BARBEQUE</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://media.blogto.com/listings/fa17-20141120-memphisbbq590-07.jpg?cmd=resize_then_crop&quality=70&w=2048&height=1365   " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>MEMPHIS BARBEQUE </center></h3></a>
+      <br>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://www.thespruceeats.com/thmb/kXqephUz2f_IqPMECS6ffCNei00=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/slow-grilled-beef-ribs-335856-Hero-5b8c4b33c9e77c007bc64595.jpg  "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>TEXAS BARBEQUE</center></h3></a>
+      <br>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://www.thespruceeats.com/thmb/H50eYkgoSvuIq2Qgw1NyGlZNW3A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Kansas-city-5af10657a474be003667fa25.jpg   " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>KANSAS CITY BARBEQUE</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://4.bp.blogspot.com/-lChJWJD5RMo/V14Ve3fNhaI/AAAAAAAAQlQ/7CKFYRT9Ts4waFdM5O2lCVVdlQnAc6UKQCKgB/s1600/IMG_3227.JPG  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> CHARCOAL BARBEQUE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://wallpapercave.com/wp/wp7738933.jpg "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>CHURASSQUE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<center><h1 style="color:yellow;"><b><em>BREADS FROM THE TANDOOR</em></b></h1></center>
+
+<div class="container">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://ohanaadams.com/wp-content/uploads/NAAN.jpg "   style="width:50%;height: 570px;">
+        <div class="carousel-caption">
+          <h3>PLAIN NAAN</h3>
+           
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://th.bing.com/th/id/OIP.AMSYhyGLYibZmWvN0OEWiQHaL7?pid=ImgDet&rs=1 " style="width:50%;height: 570px;">
+        <div class="carousel-caption">
+          <h3>GARLIC NAAN</h3>
+         </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://www.spicytime.ca/wp-content/uploads/2015/11/Cheese-Naan.jpg "   style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>STUFFED CHEESE NAAN</h3>
+           
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://rasoi123.com/wp-content/uploads/sites/2/2021/03/Chilli-Naan-scaled.jpg  "   style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>CHILLI NAAN</h3>
+           
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://www.stonefire.com/wp-content/uploads/2018/11/Bacon-Egg-and-Cheese-Sandwich.jpg "   style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3> NAAN SANDWICH </h3>
+           
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://www.rotihut.com.au/wp-content/uploads/2018/09/butter-naan.jpg   "   style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>BUTTER NAAN</h3>
+           
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://www.cookingcurries.com/wp-content/uploads/2017/01/Garam-Masala-Paneer-Naan-Wrap-2-of-7_thumb.jpg  "   style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>PANEER GARAM MASALA NAAN</h3>
+           
+        </div>
+      </div>
+   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="container">
+  <center><h1 style="color:yellow;"><b><em>DESSERTS-ICE CREAM</em></b></h1></center>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://moraclt.org/wp-content/uploads/2017/01/icecream2.jpg " alt="Los Angeles" style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3> GOURMENT SEASONAL ICE CREAM</h3>
+           
+        </div>
+      </div>
+
+      <div class="item">
+        <img src=" https://www.tashasartisanfoods.com/blog/wp-content/uploads/2018/06/choc-icecream-4.jpg" alt="Chicago" style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3> CHOCOLATE DESSERT ICE CREAM DESSERT</h3>
+          
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps8708_C2640C49B_RMS.jpg " alt="New York" style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>STRAWBERRY ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://252366-784522-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/05/mango-ice-cream-2-of-3-min.jpg"  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>MANGO ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://assets.epicurious.com/photos/5d07bc9e3c6dd09be0bfaea0/master/w_1600%2Cc_limit/IceCreamSandwiches_INSET_061119_175.jpg  "  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>SANDWICH ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://thefirstyearblog.com/wp-content/uploads/2016/06/Oreo-Ice-Cream-18.jpg "  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>OREO ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://th.bing.com/th/id/R.c8e7ce321d8a87b3e28ef722d757b055?rik=m2IlBgkspzIY7Q&riu=http%3a%2f%2fsmartsexypaleo.com%2fwp-content%2fuploads%2f2020%2f09%2fvegan-carrot-ice-cream_136595-871.jpg&ehk=VV5j8OeY%2fxzY%2fTpBNsytN4MZFP1eEPwVtk93YyMxF74%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1 "  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>CARROT ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src="https://www.sandyathome.com/wp-content/uploads/2017/07/royal-falooda-recipe-576x1024.png "  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>FALOODA ICE CREAM</h3>
+         
+        </div>
+      </div>
+      <div class="item">
+        <img src=" https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/ycaniijed6dca0rryaet "  style="width:50%;height:570px;">
+        <div class="carousel-caption">
+          <h3>KULFI</h3>
+         
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<center><h1 style="color:yellow;"><b><em>JUICE</em></b></h1></center>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://sipsmarter.org/wp-content/uploads/2018/08/AdobeStock_129600591.jpeg  " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>ORANGE JUICE</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://th.bing.com/th/id/OIP.7Ks_A0K5SyXZUKgGq0AV3QHaE8?pid=ImgDet&rs=1 " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> MANGO JUICE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.E4ubHXaZouqQ55is2EYMNAHaFi?pid=ImgDet&rs=1  "  style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> APPLE JUICE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://thekitchensurvival.com/wp-content/uploads/2018/12/banana-juice.jpg " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>BANANA JUICE</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://fthmb.tqn.com/U05Xq_yRo9b7RfKaUsHXZKyKleM=/3300x4950/filters:fill(auto,1)/135571222-56a562543df78cf77288069a.jpg " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> COCONUT JUICE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.YfTrSQlBnQyYbfjVjlj-XQHaE8?pid=ImgDet&rs=1 "       style="width:60%;height:200px ;" >
+      <br>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>COCONUT WATER </center></h3></a>
+      
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/R.5f08e928fcf9ed2d63c637af35804b4e?rik=luiEPsh28DhPUA&riu=http%3a%2f%2fcdn2.stylecraze.com%2fwp-content%2fuploads%2f2013%2f09%2f2310_10-Best-Benefits-Of-Lemon-Juice-For-Skin-Hair-And-Health_iS.jpg_1.jpg&ehk=fzuvj59IDMQa0jx5T%2f4fBhD1qO1LF%2bdBzCSwwyJY6s8%3d&risl=&pid=ImgRaw&r=0  " style="width:60%;height:200px ;"></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>LEMON JUICE</center></h3></a>
+       
+      <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src="https://5.imimg.com/data5/YV/JM/ZE/SELLER-8455061/guava-juice-500x500.png  " style="width:60%;height:200px ;" ></center></a>
+      <br>
+      <a href="#$"><h3 style="color:black;"><center>GUAVA JUICE </center></h3></a>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>  
+    </div>
+    <div class="col-sm-4">
+      <a href=" "><center><img src=" https://th.bing.com/th/id/OIP.1vpvMmf_HLatKHwFG0i4GAHaFj?pid=ImgDet&rs=1 "       style="width:60%;height:200px ;" >
+      <br>
+      <a href="#$"><h3 style="color:black;"><center> STRAWBERRY JUICE </center></h3></a>
+      <br>
+       <center><button type="button" class="btn btn-success">click to buy</button></center>     
+     
+    </div>
+  </div>
+</div>
+<hr style="height:2px;border-width:0;color:gray;background-color:red">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+   }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color:whitesmoke;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: red;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background:whitesmoke ;
+    color: #bb0000;
+  }
+  
+  .fa-instagram {
+    background:  orangered;
+    color:  red;
+  }
+  
+  .fa-pinterest {
+    background:white;
+    color:  #cb2027 ;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+ 
+  </style>
+  </head>
+  <body>
+  
+  <h2><em>FOLLOW US ON</em> </h2>
+  
+  <!-- Add font awesome icons -->
+  <a href="#" class="fa fa-facebook"></a>
+  
+  <a href="#" class="fa fa-google"></a>
+ 
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+ 
+  
+  <a href="#" class="fa fa-yahoo"></a>
+  <a href="#" class="fa fa-reddit"></a>
+ 
+        
+      
+</body>
+</html> 
+<h1 style="color:gold;"><em>YOU CAN PAY THROUGH :-</em></h1>
+<img src="https://th.bing.com/th/id/R.3a6e31d38eca4f4bf64358d682a076db?rik=f6JEEoNem%2bhDzg&riu=http%3a%2f%2fwww.pngimagesfree.com%2fLOGO%2fS%2fsbi-bank%2fSBI-Logo-VECTOR-CDR.png&ehk=%2bnSa19e1O2nvr9MqNdQq2lQwyjg0MfeCleHnxPm33TU%3d&risl=&pid=ImgRaw&r=0 " style="width:100px;"  >   
+
+<a href="*()"> <img src="https://th.bing.com/th/id/R.77a805e30111caed8290efca4012ee03?rik=yb4czCtakcPjfA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f10%2fHDFC_Bank_logo.png&ehk=z4kD%2bVCuWnkho9dgg4RIZSJMNdJn%2bq30JrC7fQLLaZQ%3d&risl=&pid=ImgRaw&r=0 " style="width:150px;"></a>
+<a href=")(*"><img src="https://purepng.com/public/uploads/large/purepng.com-google-pay-gpay-logobrandlogobrand-logoiconssymbolslogosgoogle-681522937443muxmx.png " style="width:150px; "></a>
+<a href="#$%"><img src="https://images.news18.com/ibnlive/uploads/2019/12/PhonePe.png "style="width:100px; "></a>
+<a href="*&^%"><img src="data:image/jpeg;base64,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 " style="width:100px;">  </a>
+<a href="*&^%"><img src="https://th.bing.com/th/id/R.395b28cfb6afd00fa5596e12bafe031e?rik=MxYayLoCCeJShg&riu=http%3a%2f%2ffirstcredit.net%2fwp-content%2fuploads%2f2013%2f02%2fmastercard.jpg&ehk=b7F3RWaTKuHL0rFyQwpsVDdFZQNK7TXbXKmaa5fw9IM%3d&risl=&pid=ImgRaw&r=0 " style="width:80px;"> </a>
+<a href="%$#"><img src="https://th.bing.com/th/id/R.07734cf160091516ce46a0e71b9f1cab?rik=H7twpfqtBizLUQ&riu=http%3a%2f%2fthinkconversation.files.wordpress.com%2f2010%2f07%2fvisa-logo.jpg&ehk=eu2HQQKz8nts5oHC%2bfOPDM6fJM2PZTqGYv%2fQmFApcvY%3d&risl=&pid=ImgRaw&r=0 " style="width:100px;" > </a>
+<h1 style="color:gold;"><em>THANK YOU!!</em></h1>
+</body>
+</body>
+</html>
+
+    
